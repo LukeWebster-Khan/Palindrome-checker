@@ -1,28 +1,31 @@
 body {
-    margin: 0px 300px 0px 300px;
-    background-color: aqua;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 500;
+  margin: 0px 300px 0px 300px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgba(255, 0, 0, 1)
+  );
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 500;
 }
-
-.main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.desc{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 40px;
+.desc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
 }
-.inputbox{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.inputbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.inputbox input{
-    width: 400px;
-    height: 150px;
-    box-shadow: black;
+.inputbox input {
+  width: 400px;
+  height: 150px;
+  box-shadow: black;
 }
