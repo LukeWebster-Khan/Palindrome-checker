@@ -22,8 +22,8 @@ function modifyText() {
     notif.firstChild.nodeValue = "Not a Palindrome";
   }
 }
-
-addEventListener("click", modifyText);
+const el = document.getElementById('outside');
+el.addEventListener("click", modifyText);
 /*function palindrome(str) {
     let polishedString = str.replace(/\W+|_/g, "").toLowerCase();
     let reversedString = polishedString.split("").reverse().join("").toLowerCase();
