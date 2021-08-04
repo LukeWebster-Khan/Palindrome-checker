@@ -18,6 +18,9 @@ palindrome("is this a palindrome");
 
 function modifyText() {
   const notif = document.getElementById("notif");
+  if (notif.firstChild.nodeValue == true) {
+    notif.firstChild.nodeValue = "Not a Palindrome";
+  }
 }
 
 addEventListener("click", modifyText);
